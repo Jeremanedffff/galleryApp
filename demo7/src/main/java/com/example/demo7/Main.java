@@ -15,13 +15,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * JavaFX Image Gallery Application
- * - Displays a grid of image thumbnails with names below each image.
- * - Clicking a thumbnail opens a full-size image.
- * - "Back", "Next", and "Previous" buttons allow navigation in full image view.
- * - ScrollPane added to the gallery for better navigation.
- */
+
 public class Main extends Application {
     private List<File> imageFiles = new ArrayList<>();
     private BorderPane galleryPane = new BorderPane();
